@@ -1,0 +1,3 @@
+[submodule "laradock-msl"]
+	path = laradock-msl
+	url = https://github.com/Laradock/laradock.git
