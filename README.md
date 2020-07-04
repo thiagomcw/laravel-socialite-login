@@ -36,6 +36,12 @@ No terminal, execute o composer para instalar as dependências da aplicação:
 $ composer install
 ```
 
+Posteriormente, execute o comando para criar a estrutura de tabelas do banco de dados:
+
+```
+$ php artisan migrate
+```
+
 Também execute o npm para instalar as dependências de front-end e compilar os assets:
 
 ```
