@@ -45,7 +45,7 @@ $ npm install && npm run dev
 Agora, basta iniciar a aplicação e testá-la:
 
 ```
-$ php artizan serve
+$ php artisan serve
 ```
 
 Acesse: [http://localhost:8000](http://localhost:8000).
