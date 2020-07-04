@@ -1,8 +1,8 @@
-# Mageda Social Login
+# Laravel Socialite Login
 
-Pequeno projeto desenvolvido em Laravel, com a finalidade de controlar o acesso de usuário usando suas contas de Facebook e/ou Google.
+Small project developed in Laravel, with the purpose of controlling user access using their Facebook and / or Google accounts.
 
-## Dependências
+## Dependencies
 
  - NPM;
  - Composer;
@@ -18,40 +18,40 @@ Pequeno projeto desenvolvido em Laravel, com a finalidade de controlar o acesso 
  - Tokenizer PHP Extension;
  - XML PHP Extension;
  
-É preciso acessar o painel de desenvolvedores de Google e Facebook, para criar as chaves de acesso às APIs de login social. Copie as chaves geradas para usá-las na instalação do projeto.
+You need to access the Google and Facebook developer panel to create the keys to access the social login APIs. Copy the generated keys to use them in the project installation.
  
-## Instalação
+## Installation
  
-Faça o clone do projeto na sua máquina local, usando o seguinte comando no terminal:
+Clone the project on your local machine, using the following command on the terminal:
 
 ```
-$ git clone git@bitbucket.org:thi_alves/mageda-social-login.git
+$ git clone git@github.com:thiagomcw/laravel-socialite-login.git
 ```
 
-Crie uma cópia do arquivo `.env.example` para `.env`, preenchendo-o com suas próprias credenciais de aplicação, banco de dados e chaves de acessos às APIs de Facebook e Google.
+Create a copy of the `.env.example` file for `.env`, filling it with your own application credentials, database and access keys to the Facebook and Google APIs.
 
-No terminal, execute o composer para instalar as dependências da aplicação:
+At the terminal, run the composer to install the application's dependencies:
 
 ```
 $ composer install
 ```
 
-Posteriormente, execute o comando para criar a estrutura de tabelas do banco de dados:
+Later, run the command to create the database table structure:
 
 ```
 $ php artisan migrate
 ```
 
-Também execute o npm para instalar as dependências de front-end e compilar os assets:
+Also run npm to install the front-end dependencies and compile the assets:
 
 ```
 $ npm install && npm run dev
 ```
 
-Agora, basta iniciar a aplicação e testá-la:
+Now, just start the application and test it:
 
 ```
 $ php artisan serve
 ```
 
-Acesse: [http://localhost:8000](http://localhost:8000).
+Access: [http://localhost:8000](http://localhost:8000).
